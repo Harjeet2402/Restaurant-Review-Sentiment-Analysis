@@ -1,1 +1,3 @@
 # Restaurant-Review-Sentiment-Analysis
+
+This project is to predict the sentiment of the restaurant review given by people on google maps for Bengaluru Cafes and Restaurants. Data was first collected by method of scrapping from Google Maps for restaurants serving different cuisines and mostly south indian dishes. The purpose is to create a localized sentiment analyzer since people here use different words and tone to express their views than other places and countries. TF-IDf and Word2Vec was used for vectorizing the reviews after processing them through a NLP Pipeline and then Naive Bayes, Random Forest Classifier and LSTM was use to fit the data and compare the results.
